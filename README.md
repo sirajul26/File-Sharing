@@ -3,6 +3,8 @@
 
 This repository provides a set of batch files to set up a file sharing system between two computers on the same network. These batch files automate the process of configuring file sharing, allowing you to easily share files between computers.
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&duration=10&pause=10&color=F70C22&background=000000&center=true&vCenter=true&width=250&lines=File+Sharing)](https://git.io/typing-svg)
+
 ## Prerequisites
 
 - Two computers connected to the same network (local area network or LAN)
