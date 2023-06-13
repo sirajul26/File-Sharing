@@ -50,4 +50,8 @@ This repository provides a set of batch files to set up a file sharing system be
 - Ensure that the necessary network permissions are set correctly to access the shared folder.
 - Make sure to enter the correct IP address of the first computer when prompted on the second computer.
 
-
+### Please Support Me
+ 
+[![](https://img.shields.io/youtube/channel/subscribers/UCBVJrEUuLJqiyzh1kx1OOUA?label=SUBSCRIBE&style=social)](https://www.youtube.com/channel/UCBVJrEUuLJqiyzh1kx1OOUA)
+[![](https://img.shields.io/badge/Facebook-Blue?logo=Facebook&logoColor=white&labelColor=blue)](https://www.facebook.com/romantic.lover26)
+ 
