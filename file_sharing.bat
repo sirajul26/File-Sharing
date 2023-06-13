@@ -1,8 +1,17 @@
+
+
 @echo off
-echo Configuring File Sharing...
+echo Configuring IP and File Sharing...
+
+rem Configure IP address
+echo Configuring IP address...
+netsh interface ip set address name="Ethernet" source=dhcp
+echo IP address configured.
 
 rem Enable file sharing
+echo Enabling file sharing...
 netsh advfirewall firewall set rule group="File and Printer Sharing" new enable=Yes
+echo File sharing enabled.
 
 rem Create a shared folder
 echo Creating shared folder...
@@ -19,6 +28,31 @@ echo Adding folder to shared list...
 net share SharedFolder=C:\SharedFolder /grant:Everyone,FULL
 echo Folder added to shared list.
 
-echo File sharing configuration completed.
+echo IP configuration and file sharing completed.
 
-pause
+rem Pause for 5 seconds and then close the window
+ping 127.0.0.1 -n 6 > nul
+
+exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
